@@ -152,6 +152,5 @@ RoleId
 Sequence Diagram
 
 
-
 Implementation
 	In this project we only implemented the backend services along with the controllers and we tested the different functionalities using Postman
