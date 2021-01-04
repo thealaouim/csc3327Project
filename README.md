@@ -15,13 +15,13 @@ Requirements
 Functional requirements
 
 
-    The members of the gym should be
+    The members of the gym shall be
       Able to login to their accounts using the credentials given to them by the service desk
       Able to view the facilities
       able to view the sessions of each facility
       Able to book a session in a facility 
       Be able to cancel a session
-    A service desk employee should be able to 
+    A service desk employee shall be able to 
       Login to their specific account
       Create a new account for the client
       Update the client’s account information
@@ -38,15 +38,15 @@ Functional requirements
 
     Non-functional requirements
 
-    The application should conform to the Enterprise Level Application standards of: performance, scalability, security and integration
-    Performance: the application should be able to pass google lighthouse test with at least 80%
-    Scalability: the system should keep the performance with increased loads at a reasonable cost
+    The application shall conform to the Enterprise Level Application standards of: performance, scalability, security and integration
+    Performance: the application shall be able to pass google lighthouse test with at least 80%
+    Scalability: the system shall keep the performance with increased loads at a reasonable cost
     Security:
     Confidentiality and integrity of data traffic is a must
-    The application should keep authenticity of the client and server
+    The application shall keep authenticity of the client and server
     Users can only access their own accounts and only view and modify the things that are needed by them
-    The platform should have high availability and no single point of failure in the architecture
-    The application should be multi-tier application and be light client
+    The platform shall have high availability and no single point of failure in the architecture
+    The application shallbe multi-tier application and be light client
     The software code should be clean and understandable and spaghetti code is not tolerated
     The application should be ready before the end of the semester
 
