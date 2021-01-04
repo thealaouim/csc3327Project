@@ -14,8 +14,8 @@ module.exports = function (app) {
 
     app.get("/api/facilities/:id/sessions", [authJwt.verifyToken], controller.getFacilitySessions);
 
-    app.post("/api/booking", [authJwt.verifyToken], controller.bookSession);
+    app.post("/api/bookings", [authJwt.verifyToken], controller.bookSession);
 
-    app.delete("/api/booking/:id", [authJwt.verifyToken], controller.cancelSession);
+    app.delete("/api/bookings/:id", [authJwt.verifyToken], controller.cancelSession);
 
 }
