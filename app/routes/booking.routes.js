@@ -12,7 +12,7 @@ module.exports = function (app) {
 
     app.get("/api/facilities", [authJwt.verifyToken], controller.getFacilities);
 
-    app.get("/api/facilitySessions/:id", [authJwt.verifyToken], controller.getFacilitySessions);
+    app.get("/api/facilities/:id/sessions", [authJwt.verifyToken], controller.getFacilitySessions);
 
     app.post("/api/booking", [authJwt.verifyToken], controller.bookSession);
 

@@ -107,9 +107,6 @@ async function assignFacility(facilityId, employeeId) {
     })
 }
 
-async function getFacilities() {
-    return await Facility.findAll();
-}
 async function getEmployees() {
     return await DeskEmployee.findAll({ include: [{ model: Facility, as: "facilities" }, { model: User, as: "user" }] });
 }

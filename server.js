@@ -38,9 +38,6 @@ require("./app/routes/admin.routes")(app);
 require("./app/routes/employee.routes")(app);
 require("./app/routes/booking.routes")(app);
 
-require("./app/routes/tutorial.routes")(app);
-require("./app/routes/user.routes")(app);
-
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {

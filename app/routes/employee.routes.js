@@ -11,7 +11,7 @@ module.exports = function (app) {
     });
 
     app.post(
-        "/api/client",
+        "/api/clients",
         [authJwt.verifyToken, authJwt.isAdminOrDeskEmployee, verifySignUp.checkInfoExisted, verifySignUp.checkDuplicateEmail],
         controller.signupClient
     );
@@ -19,25 +19,25 @@ module.exports = function (app) {
 
 
     app.put(
-        "/api/client/:id",
+        "/api/clients/:id",
         [authJwt.verifyToken, authJwt.isAdminOrDeskEmployee, verifySignUp.checkInfoExisted],
         controller.updateClient
     );
 
     app.get(
-        "/api/employeeFacility/:id", [authJwt.verifyToken, authJwt.isAdminOrDeskEmployee], controller.getEmployeeFacilities
+        "/api/employees/:id/facilities", [authJwt.verifyToken, authJwt.isAdminOrDeskEmployee], controller.getEmployeeFacilities
     );
 
     app.post(
-        "/api/session", [authJwt.verifyToken, authJwt.isAdminOrDeskEmployee], controller.createSession
+        "/api/sessions", [authJwt.verifyToken, authJwt.isAdminOrDeskEmployee], controller.createSession
     );
 
     app.delete(
-        "/api/session/:id", [authJwt.verifyToken, authJwt.isAdminOrDeskEmployee], controller.deleteSession
+        "/api/sessions/:id", [authJwt.verifyToken, authJwt.isAdminOrDeskEmployee], controller.deleteSession
     );
 
     app.get(
-        "/api/sessionClients/:id", [authJwt.verifyToken, authJwt.isAdminOrDeskEmployee], controller.getSessionClients
+        "/api/sessions/:id/clients", [authJwt.verifyToken, authJwt.isAdminOrDeskEmployee], controller.getSessionClients
     );
 
 }
