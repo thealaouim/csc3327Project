@@ -53,15 +53,15 @@ The clients will be able to book sessions that are 1 hour long, and they can boo
 
 ## Technologies 
   
-    For the implementation of the software, we will use the following technologies:
-    Bootstrap: We will use Bootstrap library for css components for its ease of use and adopt simple user interface designs
-    React: React will be used as a front-end framework in order to avoid repetitive code by using its components that are reusable and contained. 
-    Redux: We will use redux for its redux store functionality such that all of the data of the application will be stored in one place
-    NodeJs: We will use NodeJs for the backend in order to use javascript for the whole project. The runtime environment will allow the handling of http requests and responses
-    Express: the framework will simplify the handling of the requests and responses and help create a restful api
-    JWT: JSON Web Token will be used for authentication of the users along with Bcrypt
-    Sequelize: will be used as ORM to abstract the queries to the Postgres database server
-    Postgres: We will use it for the storage of data as a relational database
+For the implementation of the software, we will use the following technologies:
+- Bootstrap: We will use Bootstrap library for css components for its ease of use and adopt simple user interface designs
+- React: React will be used as a front-end framework in order to avoid repetitive code by using its components that are reusable and contained. 
+- Redux: We will use redux for its redux store functionality such that all of the data of the application will be stored in one place
+- NodeJs: We will use NodeJs for the backend in order to use javascript for the whole project. The runtime environment will allow the handling of http requests and responses
+- Express: the framework will simplify the handling of the requests and responses and help create a restful api
+- JWT: JSON Web Token will be used for authentication of the users along with Bcrypt
+- Sequelize: will be used as ORM to abstract the queries to the Postgres database server
+- Postgres: We will use it for the storage of data as a relational database
 
 
 
