@@ -68,14 +68,14 @@ For the implementation of the software, we will use the following technologies:
 
 ## Physical architecture - Protocols and Software
 
-![alt text](https://drive.google.com/file/d/1GgLQvCum7SNblF3rByqcgAKjktzR5gDE/view?usp=sharing)
 
+![](https://i.ibb.co/vk1tCkB/IMG-0082.jpg)
 
 
 ## Physical architecture - Resilient (No SPoF) / Scalable
 
 
-
+![](https://i.ibb.co/9HxX17Z/IMG-0083.jpg)
 
 
 
@@ -86,45 +86,47 @@ For the implementation of the software, we will use the following technologies:
 
 ## Software Logical Architecture
 
+![](https://i.ibb.co/dt0qwh9/IMG-0084.jpg)
+
 ## Entities Diagram
+![](https://i.ibb.co/GRyMjg8/IMG-0085.jpg)
 
 
-
-User
-Id
-Email
-password
-Client
-userId
-FullName
-Week bookings
-Status
-DeskEmployee
-userId
-Password
-Facility
-Id
-Name
-Maximum capacity
-Session
-AvailabilityID
-FacilityID
-SessionDate
-Booking
-BookingID
-ClientID
-AvailabilityID
-Status (active, canceled)
-FacilityAssignment
-AssignmentID
-DeskEmployeeID
-FacilityID
-Role
-Id
-Name
-User_roles
-userId
-RoleId
+- User
+  - Id
+  - Email
+  - password
+- Client
+  - userId
+  - FullName
+  - Week bookings
+  - Status
+- DeskEmployee
+  - userId
+  - FullName
+- Facility
+  - Id
+  - Name
+  - Maximum capacity
+- Session
+  - AvailabilityID
+  - FacilityID
+  - SessionDate
+- Booking
+  - BookingID
+  - ClientID
+  - AvailabilityID
+  - Status (active, canceled)
+- FacilityAssignment
+  - AssignmentID
+  - DeskEmployeeID
+  - FacilityID
+- Role
+  - Id
+  - Name
+- User_roles
+  - userId
+  - RoleId
 
 
 
