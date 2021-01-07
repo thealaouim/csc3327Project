@@ -7,8 +7,9 @@
 	Gym Booking System
 
 ## Overview
-	The application that I will work on is a Gym booking system that has three types of accounts, an admin, a service desk account and a client account. The client will be able to book the different facilities that the Gym has within the maximum limits of the persons allowed. This application will allow the Gym to automate the booking process and organize the clients of the gym as well as collect data about the different clients in order to increase its customer satisfaction. This platform is needed due to the current coronavirus crisis in order to enable the gym facilities to conform to the pandemic safety guidelines by the World Health Organization.
-	The clients will be able to book sessions that are 1 hour long, and they can book the sessions no earlier than 24 hours before the session time. Each service desk account will be connected to one facility or more. And will be able to see the booked sessions by facility and the individuals who have the sessions by name and other information. On the other hand a client will be able to book a facility for a maximum of 3 sessions per week.
+
+The application is a Gym booking system that has three types of accounts, an admin, a service desk account and a client account. The client will be able to book the different facilities that the Gym has within the maximum limits of the persons allowed. This application will allow the Gym to automate the booking process and organize the clients of the gym as well as collect data about the different clients in order to increase its customer satisfaction. This platform is needed due to the current coronavirus crisis in order to enable the gym facilities to conform to the pandemic safety guidelines by the World Health Organization.
+The clients will be able to book sessions that are 1 hour long, and they can book the sessions no earlier than 24 hours before the session time. Each service desk account will be connected to one facility or more. And will be able to see the booked sessions by facility and the individuals who have the sessions by name and other information. On the other hand a client will be able to book a facility for a maximum of 3 sessions per week.
 
 ## Requirements
 
