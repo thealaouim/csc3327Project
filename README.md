@@ -6,13 +6,13 @@ Jan 3, 2020
 IT Project
 Gym Booking System
 
-Overview
+## Overview
 	The application that I will work on is a Gym booking system that has three types of accounts, an admin, a service desk account and a client account. The client will be able to book the different facilities that the Gym has within the maximum limits of the persons allowed. This application will allow the Gym to automate the booking process and organize the clients of the gym as well as collect data about the different clients in order to increase its customer satisfaction. This platform is needed due to the current coronavirus crisis in order to enable the gym facilities to conform to the pandemic safety guidelines by the World Health Organization.
 	The clients will be able to book sessions that are 1 hour long, and they can book the sessions no earlier than 24 hours before the session time. Each service desk account will be connected to one facility or more. And will be able to see the booked sessions by facility and the individuals who have the sessions by name and other information. On the other hand a client will be able to book a facility for a maximum of 3 sessions per week.
 
-Requirements
+## Requirements
 
-Functional requirements
+#### Functional requirements
 
 
     The members of the gym shall be
@@ -36,7 +36,7 @@ Functional requirements
       Create facilities
       Update facility information
 
-    Non-functional requirements
+#### Non-functional requirements
 
     The application shall conform to the Enterprise Level Application standards of: performance, scalability, security and integration
     Performance: the application shall be able to pass google lighthouse test with at least 80%
@@ -50,7 +50,7 @@ Functional requirements
     The software code should be clean and understandable and spaghetti code is not tolerated
     The application should be ready before the end of the semester
 
-  Technologies 
+## Technologies 
   
     For the implementation of the software, we will use the following technologies:
     Bootstrap: We will use Bootstrap library for css components for its ease of use and adopt simple user interface designs
@@ -65,21 +65,12 @@ Functional requirements
 
 
 
+## Physical architecture - Protocols and Software
 
 
 
 
-
-
-
-
-
-Physical architecture - Protocols and Software
-
-
-
-
-Physical architecture - Resilient (No SPoF) / Scalable
+## Physical architecture - Resilient (No SPoF) / Scalable
 
 
 
@@ -91,9 +82,9 @@ Physical architecture - Resilient (No SPoF) / Scalable
 
 
 
-Software Logical Architecture
+## Software Logical Architecture
 
-Entities Diagram
+## Entities Diagram
 
 
 
@@ -140,17 +131,8 @@ RoleId
 
 
 
+## Sequence Diagram
 
 
-
-
-
-
-
-
-
-Sequence Diagram
-
-
-Implementation
+## Implementation
 	In this project we only implemented the backend services along with the controllers and we tested the different functionalities using Postman
