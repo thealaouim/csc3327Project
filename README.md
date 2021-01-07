@@ -1,10 +1,10 @@
 # csc3327Project
 
-El Mehdi El Alaoui
-CSC 3327
-Jan 3, 2020
-IT Project
-Gym Booking System
+	El Mehdi El Alaoui
+	CSC 3327
+	Jan 3, 2020
+	IT Project
+	Gym Booking System
 
 ## Overview
 	The application that I will work on is a Gym booking system that has three types of accounts, an admin, a service desk account and a client account. The client will be able to book the different facilities that the Gym has within the maximum limits of the persons allowed. This application will allow the Gym to automate the booking process and organize the clients of the gym as well as collect data about the different clients in order to increase its customer satisfaction. This platform is needed due to the current coronavirus crisis in order to enable the gym facilities to conform to the pandemic safety guidelines by the World Health Organization.
@@ -38,17 +38,17 @@ Gym Booking System
 
 #### Non-functional requirements
 
-    The application shall conform to the Enterprise Level Application standards of: performance, scalability, security and integration
-    Performance: the application shall be able to pass google lighthouse test with at least 80%
-    Scalability: the system shall keep the performance with increased loads at a reasonable cost
-    Security:
-    Confidentiality and integrity of data traffic is a must
-    The application shall keep authenticity of the client and server
-    Users can only access their own accounts and only view and modify the things that are needed by them
-    The platform shall have high availability and no single point of failure in the architecture
-    The application shallbe multi-tier application and be light client
-    The software code should be clean and understandable and spaghetti code is not tolerated
-    The application should be ready before the end of the semester
+- The application shall conform to the Enterprise Level Application standards of: performance, scalability, security and integration
+- Performance: the application shall be able to pass google lighthouse test with at least 80%
+- Scalability: the system shall keep the performance with increased loads at a reasonable cost
+- Security:
+  - Confidentiality and integrity of data traffic is a must
+  - The application shall keep authenticity of the client and server
+  - Users can only access their own accounts and only view and modify the things that are needed by them
+- The platform shall have high availability and no single point of failure in the architecture
+- The application shallbe multi-tier application and be light client
+- The software code should be clean and understandable and spaghetti code is not tolerated
+- The application should be ready before the end of the semester
 
 ## Technologies 
   
