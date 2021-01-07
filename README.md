@@ -130,13 +130,15 @@ For the implementation of the software, we will use the following technologies:
 
 
 
-
-
-
-
-
 ## Sequence Diagram
-
+![](https://i.ibb.co/nRKVQh6/96-AD6637-1883-4045-B529-23290143-DD26.jpg)
 
 ## Implementation
-	In this project we only implemented the backend services along with the controllers and we tested the different functionalities using Postman
+	In this project we only implemented the backend services along with the controllers 
+	and we tested the different functionalities using Postman
+## Running the program
+To start using the program, you should run the following commands:
+- Download the repository
+- Go to the repository directory using the command line and run these commands:
+  - “npm install” to install the dependencies
+  - “node server.js” to start the server in port 8080 of local host
