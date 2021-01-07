@@ -68,6 +68,7 @@ For the implementation of the software, we will use the following technologies:
 
 ## Physical architecture - Protocols and Software
 
+![alt text](https://drive.google.com/file/d/1GgLQvCum7SNblF3rByqcgAKjktzR5gDE/view?usp=sharing)
 
 
 
