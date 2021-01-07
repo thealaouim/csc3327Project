@@ -15,26 +15,26 @@ Gym Booking System
 #### Functional requirements
 
 
-    - The members of the gym shall be
-      - Able to login to their accounts using the credentials given to them by the service desk
-      - Able to view the facilities
-      - able to view the sessions of each facility
-      - Able to book a session in a facility 
-      - Be able to cancel a session
-    - A service desk employee shall be able to 
-      - Login to their specific account
-      Create a new account for the client
-      Update the client’s account information
-      Can view information about the facilities that are connected to the account
-      Create sessions for the different facilities
-      View the bookings of the moment by facility and see the clients information
-    An admin shall be able to do the following
-      Login to their account
-      Create desk employee account
-      Update desk employee account
-      Assign desk employees to facilities
-      Create facilities
-      Update facility information
+- The members of the gym shall be
+  - Able to login to their accounts using the credentials given to them by the service desk
+  - Able to view the facilities
+  - able to view the sessions of each facility
+  - Able to book a session in a facility 
+  - Be able to cancel a session
+  - A service desk employee shall be able to 
+  - Login to their specific account
+- Create a new account for the client
+  - Update the client’s account information
+  - Can view information about the facilities that are connected to the account
+  - Create sessions for the different facilities
+  - View the bookings of the moment by facility and see the clients information
+- An admin shall be able to do the following
+  - Login to their account
+  - Create desk employee account
+  - Update desk employee account
+  - Assign desk employees to facilities
+  - Create facilities
+  - Update facility information
 
 #### Non-functional requirements
 
