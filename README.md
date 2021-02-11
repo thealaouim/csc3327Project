@@ -18,9 +18,9 @@ The clients will be able to book sessions that are 1 hour long, and they can boo
   - able to view the sessions of each facility
   - Able to book a session in a facility 
   - Be able to cancel a session
-  - A service desk employee shall be able to 
+- A service desk employee shall be able to 
   - Login to their specific account
-- Create a new account for the client
+  - Create a new account for the client
   - Update the client’s account information
   - Can view information about the facilities that are connected to the account
   - Create sessions for the different facilities
