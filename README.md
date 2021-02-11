@@ -1,9 +1,5 @@
-# csc3327Project
-
-	El Mehdi El Alaoui
-	CSC 3327
-	Jan 3, 2020
-	IT Project
+# El Mehdi El Alaoui
+	Jan 3, 2021
 	Gym Booking System
 
 ## Overview
